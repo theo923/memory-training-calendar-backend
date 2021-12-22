@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "singularName": "task",
+    "pluralName": "tasks",
+    "displayName": "Task",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "taskTitle": {
+      "type": "string"
+    },
+    "TaskDescription": {
+      "type": "text"
+    },
+    "targetedDate": {
+      "type": "date"
+    }
+  }
+}
