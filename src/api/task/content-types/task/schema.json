@@ -15,7 +15,7 @@
     "taskTitle": {
       "type": "string"
     },
-    "TaskDescription": {
+    "taskDescription": {
       "type": "text"
     },
     "targetedDate": {
