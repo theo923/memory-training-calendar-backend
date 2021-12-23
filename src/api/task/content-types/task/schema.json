@@ -19,7 +19,12 @@
       "type": "text"
     },
     "targetedDate": {
-      "type": "date"
+      "type": "component",
+      "repeatable": true,
+      "component": "task-info.task-date"
+    },
+    "userID": {
+      "type": "integer"
     }
   }
 }
