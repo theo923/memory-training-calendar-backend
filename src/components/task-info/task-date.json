@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_task_info_task_dates",
+  "info": {
+    "displayName": "repetitive_task",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "t_date": {
+      "type": "date"
+    },
+    "t_period": {
+      "type": "enumeration",
+      "enum": [
+        "Daily",
+        "BiDaily",
+        "TriDaily",
+        "Weekly",
+        "BiWeekly",
+        "TriWeekly",
+        "Monthly",
+        "BiMonthly",
+        "TriMonthly",
+        "Annually",
+        "BiAnnually"
+      ]
+    }
+  }
+}
