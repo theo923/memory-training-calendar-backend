@@ -24,7 +24,10 @@
       "component": "task-info.task-date"
     },
     "userID": {
-      "type": "integer"
+      "type": "string"
+    },
+    "userName": {
+      "type": "string"
     }
   }
 }
