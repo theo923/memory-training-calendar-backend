@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_task_info_task_contents",
+  "info": {
+    "displayName": "Single-Task-Content",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "taskTitle": {
+      "type": "string"
+    },
+    "taskDescription": {
+      "type": "text"
+    },
+    "targetedDate": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-task.task-date"
+    }
+  }
+}
