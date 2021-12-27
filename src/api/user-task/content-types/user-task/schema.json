@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_tasks",
+  "info": {
+    "singularName": "user-task",
+    "pluralName": "user-tasks",
+    "displayName": "UserTask",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userName": {
+      "type": "string"
+    },
+    "userID": {
+      "type": "string"
+    },
+    "tasks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::task.task"
+    }
+  }
+}

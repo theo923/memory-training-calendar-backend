@@ -21,7 +21,7 @@
     "targetedDate": {
       "type": "component",
       "repeatable": true,
-      "component": "task-info.task-date"
+      "component": "single-task.task-date"
     },
     "userID": {
       "type": "string"
