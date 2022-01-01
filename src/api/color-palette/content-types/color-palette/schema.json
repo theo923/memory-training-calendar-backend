@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "color_palettes",
+  "info": {
+    "singularName": "color-palette",
+    "pluralName": "color-palettes",
+    "displayName": "colorPalette",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "color_static": {
+      "type": "component",
+      "repeatable": true,
+      "component": "color.color-string"
+    },
+    "color_gradient": {
+      "type": "component",
+      "repeatable": true,
+      "component": "color.color-string"
+    }
+  }
+}
