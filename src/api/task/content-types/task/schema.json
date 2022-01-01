@@ -28,6 +28,10 @@
     },
     "userName": {
       "type": "string"
+    },
+    "taskColor": {
+      "type": "string",
+      "default": "transparent"
     }
   }
 }

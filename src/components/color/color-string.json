@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_color_color_strings",
+  "info": {
+    "displayName": "Color-String",
+    "icon": "biking",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "colorValue": {
+      "type": "string"
+    },
+    "colorName": {
+      "type": "string"
+    }
+  }
+}
