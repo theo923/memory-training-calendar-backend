@@ -22,6 +22,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::task.task"
+    },
+    "todo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "todo.todo-content"
     }
   }
 }
