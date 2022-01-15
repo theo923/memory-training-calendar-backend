@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_todo_todo_contents",
+  "info": {
+    "displayName": "Todo-Content",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "finished": {
+      "type": "boolean"
+    }
+  }
+}
