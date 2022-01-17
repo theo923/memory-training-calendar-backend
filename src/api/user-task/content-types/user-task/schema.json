@@ -27,6 +27,11 @@
       "type": "component",
       "repeatable": true,
       "component": "todo.todo-content"
+    },
+    "quizbook": {
+      "type": "component",
+      "repeatable": true,
+      "component": "quiz.quiz-book"
     }
   }
 }

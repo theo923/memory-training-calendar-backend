@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_quiz_quiz_contents",
+  "info": {
+    "displayName": "Quiz-Content",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    },
+    "prompt": {
+      "type": "text"
+    },
+    "finished_date": {
+      "type": "date"
+    },
+    "last_answer": {
+      "type": "text"
+    }
+  }
+}
