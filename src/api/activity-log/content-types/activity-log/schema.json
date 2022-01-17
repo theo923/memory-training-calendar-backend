@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activity_logs",
+  "info": {
+    "singularName": "activity-log",
+    "pluralName": "activity-logs",
+    "displayName": "activityLog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "activity": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "userID": {
+      "type": "string"
+    },
+    "data": {
+      "type": "json"
+    }
+  }
+}
