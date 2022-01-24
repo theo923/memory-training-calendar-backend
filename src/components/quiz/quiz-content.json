@@ -17,7 +17,7 @@
       "type": "text"
     },
     "finished_date": {
-      "type": "date"
+      "type": "datetime"
     },
     "last_answer": {
       "type": "text"
