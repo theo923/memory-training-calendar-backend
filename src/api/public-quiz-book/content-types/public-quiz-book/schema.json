@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "public_quiz_books",
+  "info": {
+    "singularName": "public-quiz-book",
+    "pluralName": "public-quiz-books",
+    "displayName": "PublicQuizBook",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quizBook": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.quiz-book"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::user-task.user-task",
+      "mappedBy": "owned_quizBook"
+    },
+    "like": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::user-task.user-task",
+      "mappedBy": "liked_quizBooks"
+    },
+    "dislike": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::user-task.user-task",
+      "mappedBy": "disliked_quizBooks"
+    }
+  }
+}
