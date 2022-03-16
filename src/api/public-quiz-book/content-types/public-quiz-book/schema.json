@@ -17,12 +17,6 @@
       "repeatable": false,
       "component": "quiz.quiz-book"
     },
-    "author": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::user-task.user-task",
-      "mappedBy": "owned_quizBook"
-    },
     "like": {
       "type": "relation",
       "relation": "manyToMany",
@@ -34,6 +28,11 @@
       "relation": "manyToMany",
       "target": "api::user-task.user-task",
       "mappedBy": "disliked_quizBooks"
+    },
+    "comments": {
+      "type": "component",
+      "repeatable": true,
+      "component": "public.comment-box"
     }
   }
 }
