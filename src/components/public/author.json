@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_public_authors",
+  "info": {
+    "displayName": "Author",
+    "icon": "baby"
+  },
+  "options": {},
+  "attributes": {
+    "user_task": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::user-task.user-task"
+    }
+  }
+}

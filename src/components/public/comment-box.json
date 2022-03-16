@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_public_comment_boxes",
+  "info": {
+    "displayName": "Comment Box",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "comment": {
+      "type": "text"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::user-task.user-task"
+    }
+  }
+}

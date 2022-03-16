@@ -24,6 +24,15 @@
     },
     "slug": {
       "type": "string"
+    },
+    "public": {
+      "type": "boolean",
+      "default": false
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::user-task.user-task"
     }
   }
 }

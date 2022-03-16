@@ -32,6 +32,23 @@
       "type": "component",
       "repeatable": true,
       "component": "quiz.quiz-book"
+    },
+    "liked_quizBooks": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::public-quiz-book.public-quiz-book",
+      "inversedBy": "like"
+    },
+    "disliked_quizBooks": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::public-quiz-book.public-quiz-book",
+      "inversedBy": "dislike"
+    },
+    "comment_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "public.comment-box"
     }
   }
 }
