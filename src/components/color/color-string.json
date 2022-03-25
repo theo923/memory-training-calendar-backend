@@ -12,6 +12,15 @@
     },
     "colorName": {
       "type": "string"
+    },
+    "secondary_colorValue": {
+      "type": "string"
+    },
+    "tertiary_colorValue": {
+      "type": "string"
+    },
+    "button_textColor": {
+      "type": "string"
     }
   }
 }
