@@ -9,6 +9,7 @@ module.exports = {
       apolloServer: {
         tracing: false,
       },
+      introspection: true,
       defaultLimit: 100,
       maxLimit: 100,
     },
